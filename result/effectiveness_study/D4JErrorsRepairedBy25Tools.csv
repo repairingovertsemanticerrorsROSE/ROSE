@@ -1,0 +1,44 @@
+Repaired Errors Reported,,,,,,,,,,,,,,,,,,,,,,,,,
+BugId,jGenProg,jKali,Nopol,jMutRepair,ACS,JAID,ssFix,CapGen,SketchFix,LSRepair,SimFix,kPAR,HDRepair,Tbar,Hercules,DLFix,Confix,ARJA,SequenceR,CoCoNut,CURE,sharpFix,DEAR,TRANSFER,Recoder
+Chart_1,F,F,F,T,F,F,T,T,T,T,T,T,F,T,T,T,T,F,T,T,T,F,T,F,T
+Chart_3,F,F,F,F,F,F,F,F,F,F,T,F,F,F,T,F,F,T,F,F,F,F,F,F,T
+Chart_9,F,F,F,F,F,F,F,F,T,F,F,F,F,T,T,T,F,F,T,T,T,F,T,T,T
+Chart_11,F,F,F,F,F,F,F,T,T,T,F,F,F,T,T,T,T,F,T,T,T,F,T,T,T
+Chart_12,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,T,F,T,T,F,F,F,F
+Chart_20,F,F,F,F,F,F,T,F,T,F,T,F,F,T,F,T,F,F,F,F,T,T,T,T,T
+Lang_6,F,F,F,F,F,F,T,T,T,F,F,F,T,F,T,T,T,F,T,F,T,T,T,T,T
+Lang_21,F,F,F,F,F,F,T,F,F,T,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F
+Lang_24,F,F,F,F,T,F,F,F,T,T,F,F,F,F,T,F,T,F,F,F,F,T,F,F,F
+Lang_33,F,F,F,F,F,T,T,F,F,F,T,F,F,T,T,T,F,F,F,T,F,T,T,T,T
+Lang_59,F,F,F,F,F,F,T,T,T,F,F,T,F,T,T,T,F,F,T,T,T,T,T,T,T
+Lang_61,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F
+Math_4,F,F,F,F,T,F,F,F,F,F,F,F,F,T,T,F,F,F,F,F,F,F,T,T,F
+Math_58,F,F,F,F,F,F,F,T,F,F,F,T,F,T,T,T,F,T,T,T,T,T,T,F,F
+Math_59,F,F,F,F,F,F,T,T,T,F,T,F,F,T,T,T,F,F,F,T,T,T,T,T,F
+Math_69,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F
+Math_75,F,F,F,F,F,F,F,T,F,T,T,T,F,T,T,T,T,F,T,F,T,T,T,T,T
+Math_82,F,F,F,T,T,F,F,F,T,F,F,F,F,F,T,T,F,F,T,T,T,F,T,F,F
+Math_94,F,F,F,F,F,F,F,F,F,T,F,F,F,F,F,F,F,F,F,T,T,F,F,F,T
+Math_96,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T
+Math_104,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F
+Math_105,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T
+Math_2,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,F,F
+Math_5,T,F,F,F,T,T,F,T,T,F,T,F,T,T,T,T,T,T,F,F,F,F,T,T,T
+Math_11,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F,F,F,F,F,T,F,F,F
+Math_27,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,T,F,F,F,T
+Math_30,F,F,F,F,F,F,T,T,F,F,F,F,F,T,T,T,T,F,T,T,T,F,T,T,T
+Math_32,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F
+Math_34,F,F,F,F,F,F,F,F,F,F,F,F,F,T,T,F,T,F,F,T,T,F,F,T,T
+Time_4,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,F,F,F,F,F,F,F,T
+Time_16,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F
+Time_19,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,T,F,F,T,T,F,T,F,F
+Count,1,0,0,2,4,2,8,9,10,6,7,4,2,14,18,13,9,4,9,15,17,11,15,12,17
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Repair Time Reported,,,,,,,,,,,,,,,,,,,,,,,,,
+Statistics,jGenProg,jKali,Nopol,jMutRepair,ACS,JAID,ssFix,CapGen,SketchFix,LSRepair,SimFix,kPAR,HDRepair,Tbar,Hercules,DLFix,Confix,ARJA,SequenceR,CoCoNut,CURE,sharpFix,DEAR,TRANSFER,Recoder
+Median,1h01m,18m45s,22m30s,N/A,30m timeout,119.5m,10.7m,5.8m,7.3m,0.6m,5h timeout,3h timeout,N/A,3h timeout,5h timeout,5h timeout,7.5m,4.7m,N/A,22.7m,N/A,11.3m,"5h timeout 
+ (average time per patch reported)",3h timeout,5h timeout
+Average,55m50s,23m33s,30m53s,N/A,,N/A,N/A,9.8m,24.8m,5.1m,,,20m,,,,20.6m,10.02m,104.2m,N/A,19m,25.1m,,,
+Min,40s,36s,31s,N/A,,3.6m,1.8m,0.18m,0.1m,0.2m,,,N/A,,,,0.75m,0.73m,N/A,N/A,N/A,0.7m,,,
+Max,1h16m,1h27m,1h54m,N/A,,2228.6m,100.5m,50.32m,208.5m,43.5m,,,N/A,,,,183.1m,63.73m,N/A,N/A,N/A,118.5m,,,

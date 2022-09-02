@@ -1,0 +1,59 @@
+<project name='rose' default='jar' >
+
+   <property file='build.properties' />
+   <property name='PRO' value='/pro' />
+   <property name='IVYBIN' value='${PRO}/ivy/java' />
+   <property name='ROSE' value='${PRO}/rose' />
+
+   <available file="./build.properties" type='file' property='setup.done' />
+   <path id='setuppath'>
+      <pathelement location='..' />
+   </path>
+   <path id='rosepath'>
+      <pathelement location='.' />
+   </path>
+   <property name='setupfile' refid='setuppath' />
+   <property name='rosefile' refid='rosepath' />
+   <target name='setup' unless='setup.done'>
+      <echo file='./build.properties' message="PRO=${setupfile}${line.separator}" />
+      <echo file='./build.properties' message='ROSE=${rosefile}${line.separator}' append='true' />
+      <mkdir dir='./java/xxx/x/xx/rose' />
+      <property name='PRO' value='{setupfile}' />
+      <property name='ROSE' value='{rosefile}' />
+   </target>
+
+   <target name='all' depends='setup'>
+      <mkdir dir='./java' />
+      <ant antfile="build.xml" dir="javasrc" />
+   </target>
+
+   <path id='jdocsrc'>
+      <pathelement location='./javasrc' />
+      <pathelement location='${PRO}/ivy/javasrc' />
+    </path>
+
+   <target name='doc'>
+      <ant antfile='build.xml' dir='javasrc' target='doc' />
+      <zip zipfile='lib/apidoc.zip' basedir='doc' />
+   </target>
+
+   <target name='jar' depends='all'>
+      <jar destfile='rose.jar'>
+	 <manifest>
+	    <attribute name='Bubbles-start' value='xxx.x.xx.rose.bush.BushFactory' />
+	    <attribute name='Bubbles-palette' value='rose.palette' />
+	    <attribute name='Bubbles-depends' value='' />
+	    <attribute name='Bubbles-resource' value='Rose.props' />
+	 </manifest>
+	 <fileset dir='./java' includes='**/*.class' />
+	 <fileset dir='./resources' includes='Rose.props' />
+	 <fileset dir='./resources' includes='rose.palette' />
+	 <fileset dir='./resources' includes='images/*.png' />
+	 <zipfileset src='lib/sharpfix.jar' excludes='META-INF/*' />
+      </jar>
+      <copy file='rose.jar' tofile='${PRO}/bubbles/dropins/rose.jar' verbose='true' />
+      <copy file='rose.jar' tofile='${PRO}/bubbles/dropins.export/rose.jar' verbose='true' />
+   </target>
+
+
+</project>

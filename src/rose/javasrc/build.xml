@@ -1,0 +1,32 @@
+<project name='rose' default='all' >
+
+   <property file='../build.properties' />
+   <property name='PRO' value='/research' />
+   <property name='ROSE' value='${PRO}/fait' />
+
+   <target name='all'>
+      <ant antfile="build.xml" dir="xxx/x/xx/rose/root" />
+      <ant antfile="build.xml" dir="xxx/x/xx/rose/bush" />
+      <ant antfile="build.xml" dir="xxx/x/xx/rose/bract" />
+      <ant antfile="build.xml" dir="xxx/x/xx/rose/bud" />
+      <ant antfile="build.xml" dir="xxx/x/xx/rose/thorn" />
+      <ant antfile="build.xml" dir="xxx/x/xx/rose/validate" />
+      <ant antfile="build.xml" dir="xxx/x/xx/rose/picot" />
+      <ant antfile="build.xml" dir="xxx/x/xx/rose/stem" />
+      <ant antfile="build.xml" dir="xxx/x/xx/rose/sepal" />
+      <ant antfile="build.xml" dir="xxx/x/xx/rose/roseeval" />
+   </target>
+
+   <path id='jdocsrc'>
+      <pathelement location='${ROSE}/java' />
+   </path>
+
+   <target name='doc'>
+      <javadoc sourcepathref='jdocsrc' classpathref='bubbles.classpath' destdir='${PRO}/rose/doc'>
+	 <package name='xxx.x.xx.rose.bush' />
+      </javadoc>
+   </target>
+
+
+</project>
+
